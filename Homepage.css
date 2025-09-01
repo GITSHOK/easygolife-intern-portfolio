@@ -211,6 +211,11 @@
             padding: 25px;
             border-radius: 8px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid black;
+            transition: 0.3s;
+        }
+        .skill-category:hover{
+            background-color: #f3d6d6;
         }
 
         .skill-category h3 {
@@ -225,7 +230,7 @@
 
         .skill-category li {
             padding: 10px 0;
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid black;
         }
 
         .skill-category li:last-child {
@@ -242,14 +247,13 @@
         .project-card {
             flex: 1;
             min-width: 300px;
-            background: #fff;
+            background: #f3d6d6;
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            transition: border 2s;
         }
         .project-card:hover{
-            border: 1px solid darkorchid;
+            border: 1px solid black;
         }
         .project-img {
             height: 200px;
@@ -283,8 +287,8 @@
 
         .btn {
             display: inline-block;
-            background: #4a6cf7;
-            color: white;
+            background: white;
+            color: black;
             padding: 10px 20px;
             border-radius: 5px;
             text-decoration: none;
@@ -293,6 +297,7 @@
 
         .btn:hover {
             background: #3b5be3;
+            color: white;
         }
 
         /* Achievements Section */
